@@ -2,14 +2,13 @@
   background-color: #F2B6CC;
   margin: 0.2vmax;
   color: #fff;
+  /* selects all elements */
 }
 .pink {
   background-color: #F2B6CC;
-
+/* seperate div strictly for background color. could not do in * because I did not want to impact entire site. */
 }
 
-.realH1 {
-}
 .halfTwo {
   display: flex;
   background-image: url('https://images.unsplash.com/photo-1509731987499-fd9bba3a46cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
@@ -18,14 +17,14 @@
   float: right;
   position: relative; bottom: 77vmax;
   background-position: center;
-
+/* Isolating one half of the page or what I refer to as my pink section. */
 
 }
 .halfOne {
   background-color: #2A1440;
   width: 50vw;
   height: 100vh;
-
+/* purple half of page.  */
 }
 
 .whatsUp {
@@ -37,6 +36,7 @@
   text-decoration: overline;
   background-color: transparent;
   padding-top: 2vmin;
+  /* piece of text at top right corner. */
 }
 
 .hello {
@@ -45,19 +45,20 @@
   text-align: left;
   font-size: 4vmin;
   background-color: transparent;
+  /* making the backgrond color transparent takes away the div color entirely.  */
 }
 
 a {
   background-color: #2A1440;
   text-decoration: none;
+  /* taking away underline of link. */
 }
 
 .purpleHalf {
   display: flex;
   flex-direction: column;
   padding-right: 75vmin;
-  /* justify-content: center; */
-
+  /* this is the lower half of the purple half. */
 }
 
 .lookDown, .didYou, .goodDay {
@@ -67,8 +68,10 @@ a {
   width: 16vmax;
   font-weight: lighter;
   background-color: transparent;
+  /* seperating classes by commas mean that all wil be impacted by the listed attributes. */
 }
 
+/* these are all the text divs in the bottom half of the purple section.  */
 .lookDown {
   font-family: sans-serif;
   font-size: 2vmin;
@@ -99,4 +102,5 @@ a {
 
 a:hover {
   color: #F2B6CC;
+  /* interavtivity element */
 }
