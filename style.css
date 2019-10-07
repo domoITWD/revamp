@@ -1,0 +1,102 @@
+* {
+  background-color: #F2B6CC;
+  margin: 0.2vmax;
+  color: #fff;
+}
+.pink {
+  background-color: #F2B6CC;
+
+}
+
+.realH1 {
+}
+.halfTwo {
+  display: flex;
+  background-image: url('https://images.unsplash.com/photo-1509731987499-fd9bba3a46cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  width: 45vw;
+  height: 100vh;
+  float: right;
+  position: relative; bottom: 77vmax;
+  background-position: center;
+
+
+}
+.halfOne {
+  background-color: #2A1440;
+  width: 50vw;
+  height: 100vh;
+
+}
+
+.whatsUp {
+  text-align: right;
+  font-family: 'Adamina', serif;
+  font-weight: lighter;
+  font-size: 2vmin;
+  opacity: 0.6;
+  text-decoration: overline;
+  background-color: transparent;
+  padding-top: 2vmin;
+}
+
+.hello {
+  font-family: 'Adamina', serif;
+  position: relative; top: 20vmin;
+  text-align: left;
+  font-size: 4vmin;
+  background-color: transparent;
+}
+
+a {
+  background-color: #2A1440;
+  text-decoration: none;
+}
+
+.purpleHalf {
+  display: flex;
+  flex-direction: column;
+  padding-right: 75vmin;
+  /* justify-content: center; */
+
+}
+
+.lookDown, .didYou, .goodDay {
+  position: relative; bottom: 70vmin; left: 40vmin;
+  font-family: 'Adamina', serif;
+  opacity: 0.6;
+  width: 16vmax;
+  font-weight: lighter;
+  background-color: transparent;
+}
+
+.lookDown {
+  font-family: sans-serif;
+  font-size: 2vmin;
+  text-transform: uppercase;
+}
+
+.didYou {
+  font-size: 6vmin;
+  width: 45vmin;
+}
+
+.goodDay {
+  font-size: 5vmin;
+  width: 48vmin;
+  opacity: 1;
+}
+
+.que {
+  background-color: transparent;
+  flex-direction: row;
+  position: relative;
+  bottom: 70vmin;
+  left: 40vmin;
+  width: 47vmin;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+
+a:hover {
+  color: #F2B6CC;
+}
